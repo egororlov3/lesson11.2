@@ -1,6 +1,11 @@
 def letters_up():
-""" делает заглавнные буквы"""
-   s = input()
-   print(s.upper())
+   """ делает заглавнные буквы"""
+   line = input()
+   print(line.upper())
 
-letters_up()
+def first_let_up():
+   """первые буквы заглавнные"""
+   new_line = input()
+   print(new_line.title())
+
+
